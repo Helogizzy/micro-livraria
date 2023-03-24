@@ -58,6 +58,7 @@ app.get('/product/:id', (req, res, next) => {
         }
     });
 });
+
 /**
  * Inicia o router
  */
