@@ -72,3 +72,18 @@ body {
         min-height: 250px;
     }
 }
+
+.button.is-primary {
+    background-color: #209cee;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button.is-primary:hover {
+    background-color: #147cbd;
+}
+
