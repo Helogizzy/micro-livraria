@@ -1,14 +1,13 @@
-# Imagem base derivada do Node
+# imagem base derivada do node
 FROM node
 
-# Diretório de trabalho
+# diretorio do trabalho
 WORKDIR /app
 
-# Comando para copiar os arquivos para a pasta /app da imagem
+# comando pra copiar os arquivos pra pasta /app da imagem
 COPY . /app
 
-# Comando para instalar as dependências
-RUN npm install
+# comando pra instalar as dependências
+RUN npm isntall
 
-# Comando para inicializar (executar) a aplicação
 CMD ["node", "/app/services/shipping/index.js"]
